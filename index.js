@@ -14,7 +14,7 @@
     codioIDE.coachBot.write("Moose!")
     codioIDE.coachBot.write(context.guidesPage.content)
     codioIDE.coachBot.write(context.files[0].content)
-    await codioIDE.add(".guides/moose","Sheep-tastic!")
+    await codioIDE.files.add(".guides/moose","Sheep-tastic!")
     
     
   }
