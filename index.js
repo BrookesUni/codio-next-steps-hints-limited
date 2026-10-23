@@ -12,7 +12,10 @@
     let context = await codioIDE.coachBot.getContext()
     // console.log(context)
     codioIDE.coachBot.write("Moose!")
-    codioIDE.coachBot.write(context.guidesPage)
+    codioIDE.coachBot.write(context.guidesPage.content)
+    codioIDE.coachBot.write(context.files[0].content)
+    await codioIDE.add(".guides/moose","Sheep-tastic!")
+    
     
   }
 
