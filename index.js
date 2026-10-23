@@ -3,7 +3,7 @@
 (async function(codioIDE, window) {
 
   // register(id: unique button id, name: name of button visible in Coach, function: function to call when button is clicked) 
-  codioIDE.coachBot.register("customHintsJupyter", "Provide a hint on what to do next", onButtonPress)
+  codioIDE.coachBot.register("customHintsJupyter", "MG TEST", onButtonPress)
 
   // function called when I have a question button is pressed
   async function onButtonPress() {
